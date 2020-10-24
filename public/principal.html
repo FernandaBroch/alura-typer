@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Typer</title>
+    <link rel="stylesheet" href="./css/libs/materialize.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/libs/google-fonts.css">
+</head>
+<body>
+  <main class="container">
+    <h1 class="center">Alura Typer</h1>
+    <p class="frase">Burrow under covers wack the mini furry mouse yet massacre a bird in the living room and then look like the cutest and most innocent animal on the planet or freak human. </p>
+
+    <ul class="informacoes center">
+      <li>
+        <i class="samall material-icons icones">description</i>
+        <span id="tamanhoFrase">30</span> palavras
+      </li>
+      <li>
+        <i class="samall material-icons icones">query_builder</i>
+        <span id="tempo-digitacao">3</span> segundos
+      </li>
+    </ul>
+
+    <textarea class="campo-digitacao" row="8" cols="40"></textarea>
+
+    <div class="botoes">
+      <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+          <i class="material-icons">add</i>
+      </a>
+    </div>
+    <ul class="center">
+      <li><span id="contador-caracteres">0</span> caracteres</li>
+      <li><span id="contador-palavras">0</span> palavras</li>
+    </ul>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </main>
+</body>
+</html>
